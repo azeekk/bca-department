@@ -15,31 +15,31 @@ const Footer = () => {
         <h1 className='thank'><img src={Frame2} alt="" />'Thank you for visiting us'<img src={Frame} alt="" /></h1>
         <div className='quicksupport'>
           <h4>Quick.Support</h4>
-          <h2>you can get all the information</h2>
+          <h2 className='informationheader'>you can get all the information</h2>
         </div>
 
         <div className='contacts'> 
           <li className='location'>
               <img src={LocationLogo} alt="" />
-              <h5>visit us</h5>
-              <h6>jamia nadawiyya</h6>
-              <h6>edavanna</h6>
+              <h5 className='headerone'>visit us</h5>
+              <h6 className='headertwo'>Jamia Nadawiyya</h6>
+              <h6 className='headerthree'>Edavanna</h6>
 
           </li>
 
           <li className='phone'>
             <img src={PhoneLogo} alt="" />
-            <h5>call us</h5>
-            <h6>0000000000</h6>
-            <h6>0000000000</h6>
+            <h5 className='headerone'>Call us</h5>
+            <h6 className='headertwo'>9744297753</h6>
+            <h6 className='headerthree'>9744297753</h6>
 
           </li>
 
           <li className='email'>
             <img src={MailLogo} alt="" />
-            <h5>Email us</h5>
-            <h6><a href="">example@gmail.com</a></h6>
-            <h6><a href="">example@gmail.com</a></h6>
+            <h5 className='headerone'>Email us</h5>
+            <h6 className='headertwo'><a href="">https://www.jnasc.org</a></h6>
+            <h6 className='headerthree'><a href="">https://www.jnasc.org</a></h6>
             
           </li>
         </div>
