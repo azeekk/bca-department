@@ -151,5 +151,11 @@
       margin-top: 0; /* Avoid negative margins on smaller screens */
       border-radius: 10px;
     }
-    
+    .heading1 {
+      font-size: 20px;
+      font-style: italic;
+    }
+    .heading2 {
+      font-size: 15px;
+    }
   }

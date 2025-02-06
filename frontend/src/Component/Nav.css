@@ -1,5 +1,21 @@
-.Navigation {
-    margin-top: 20px;
-    background-color: white;
-
+.Navigation a {
+    margin-top: 30px;
+    padding-right: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: inherit; 
 }
+
+.Navigation {
+    width: 100%;
+    border-bottom-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+}
+
+.ul {
+    margin-top: 10px;
+}
+
+
+
+

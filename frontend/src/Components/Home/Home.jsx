@@ -1,7 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import "./Home.css"
 import Logo from '../../assets/jamia_logo.png'
 import collegevideo from '../../assets/collegevideo.mp4'
+import Navbar from '../../Component/Nav'
 
 
 const Home = () => {
@@ -18,14 +20,6 @@ const Home = () => {
             </div>
         </div>
         <div className='right'>
-          <div className='Navigation'>
-            <ul className='ul'>
-              <li className='homeli'>Home</li>
-              <li className='teachersli'>Teachers</li>
-              <li className='programsli'>Programs</li>
-              <li className='aboutli'>About</li>
-            </ul>
-          </div>
         </div>
       </header>
       <div className='spotlight'> 

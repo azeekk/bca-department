@@ -10,8 +10,7 @@ import MailLogo from '../../assets/mail.png'
 
 const Footer = () => {
   return (
-    <div className='footer'>
-        <div className='header'> <Nav /></div>  
+    <div className='footer'>  
         <h1 className='thank'><img src={Frame2} alt="" />'Thank you for visiting us'<img src={Frame} alt="" /></h1>
         <div className='quicksupport'>
           <h4>Quick.Support</h4>
