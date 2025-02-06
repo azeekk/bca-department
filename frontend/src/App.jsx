@@ -12,9 +12,9 @@ function App() {
 
   return (
     <Router>
-      <Navbar classname=".navbar" />
+      <Navbar />
       <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/bca-department" element={<Home />} />
         <Route path="/teachers" element={<Teachers />} />
         <Route path="/programs" element={<Programs />} />
         <Route path="/about" element={<Footer/>}/>
