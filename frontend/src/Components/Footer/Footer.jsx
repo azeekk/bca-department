@@ -1,6 +1,5 @@
 import React from 'react'
 import './Footer.css';
-import Nav from '../../Component/Nav'
 import Frame from '../../assets/Frame.png'
 import Frame2 from '../../assets/Frame2.png'
 import LocationLogo from '../../assets/location.png'
