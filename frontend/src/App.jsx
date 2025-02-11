@@ -6,7 +6,7 @@ import Programs from './Components/Programs/Programs'
 import Footer from './Components/Footer/Footer'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './Component/Nav'
+import Navbar from './Component/Nav/Nav'
 
 function App() {
 

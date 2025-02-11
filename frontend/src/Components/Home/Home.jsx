@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import "./Home.css"
 import Logo from '../../assets/jamia_logo.png'
 import collegevideo from '../../assets/collegevideo.mp4'
-import Navbar from '../../Component/Nav'
+import Navbar from '../../Component/Nav/Nav'
 
 
 const Home = () => {
